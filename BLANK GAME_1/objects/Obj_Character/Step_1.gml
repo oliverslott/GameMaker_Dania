@@ -37,3 +37,9 @@ vel_x = 0;
 /// @DnDArgument : "expr" "grav_speed"
 /// @DnDArgument : "var" "vel_y"
 vel_y = grav_speed;
+
+/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+/// @DnDVersion : 1
+/// @DnDHash : 52BD5B10
+/// @DnDArgument : "msg" ""First?""
+show_debug_message(string("First?"));
